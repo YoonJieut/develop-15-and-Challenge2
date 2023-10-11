@@ -28,4 +28,10 @@ const pokemonTwo = {
   }
 };
 
+// * 나의 예상 : 화살표 함수는 상위 스코프로 바인드를 올려주기 때문에 global이 뜰 것이다.
+// ! 해설 : node.js의 최상위는 global이라는 객체가 존재하지만, name key 값도 존재하며 그 value값은 undefinde이다. 답 : undefined
 pokemonTwo.pokemonTwo();
+
+/**
+ * 비교 예
+ */

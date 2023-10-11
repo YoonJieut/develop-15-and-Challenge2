@@ -20,9 +20,12 @@ pokemonOne.pokemonOne();
  * 그러므로 아래의 메서드 호출은 정상적으로 '피카츄'가 출력된다.
  */
 
+
 const pokemonTwo = {
   name : "라이츄",
   pokemonTwo : ()=>{
     console.log(this.name);
   }
 };
+
+pokemonTwo.pokemonTwo();
